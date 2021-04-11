@@ -9,6 +9,24 @@
   height: 32%;
 }
 
+.card > h5 {
+  bottom: 80px;
+  font-size: 1.7vw;
+  position: relative;
+
+}
+
+.card > p {
+  bottom: 130px;
+  font-size: 1vw;
+  line-height: 10pt;
+  text-align: justify;
+  margin-left: 4px;
+  margin-right: 4px;
+  position: relative;
+
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -18,7 +36,7 @@
 }
 
 .flex-container > div {
-  background-color: Black;
+  /* background-color: Black; */
   width: 20%;
   max-width: 300px;
   height: 400px;
@@ -26,4 +44,5 @@
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  box-shadow: 0 0 0.5em Black;
 }
